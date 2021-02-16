@@ -27,7 +27,10 @@ public class AdvertisementController {
 
 	@Autowired
 	private AdvertisementRepository advertisementRepository;
-	
+
+	public AdvertisementController() {
+	}
+
 	@RequestMapping(value = "/")
 	String home(Model model) {
 		model.addAttribute("ads", this.advertisementRepository.findAll());

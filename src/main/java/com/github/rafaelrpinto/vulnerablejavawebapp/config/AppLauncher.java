@@ -44,6 +44,7 @@ public class AppLauncher {
 		return resolver;
 	}
 
+
 	@Bean
 	public DataSource dataSource() {
 		EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();

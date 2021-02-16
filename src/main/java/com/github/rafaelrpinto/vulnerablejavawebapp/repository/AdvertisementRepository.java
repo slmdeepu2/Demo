@@ -42,6 +42,8 @@ public class AdvertisementRepository {
 		return ad;
 	};
 
+
+
 	/**
 	 * Creates a new ad on the database.
 	 */

@@ -55,7 +55,13 @@ public class UserController {
 			return showLoginForm(model);
 		}
 	}
-	
+
+
+	public Advertisement() {
+
+	}
+
+
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 	String showSignUpForm(Model model) {
 		return "signUp";

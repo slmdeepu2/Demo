@@ -40,7 +40,11 @@ public class AdvertisementController {
 		model.addAttribute("keyword", keyword);
 		return "home";
 	}
-	
+
+	public Advertisement() {
+
+	}
+
 	@RequestMapping(value = "/secure/newAd", method=RequestMethod.GET)
 	String showNewAdForm(Model model) {
 		return "newAdForm";

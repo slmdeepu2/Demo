@@ -41,6 +41,10 @@ public class SessionUserFilter implements Filter {
 		}
 	}
 
+	public Advertisement() {
+
+	}
+
 	@Override
 	public void init(FilterConfig arg0) throws ServletException {
 

@@ -44,6 +44,11 @@ public class AppLauncher {
 		return resolver;
 	}
 
+	public Advertisement() {
+
+	}
+
+
 	@Bean
 	public DataSource dataSource() {
 		EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();

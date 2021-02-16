@@ -41,10 +41,6 @@ public class AdvertisementController {
 		return "home";
 	}
 
-	public Advertisement() {
-
-	}
-
 	@RequestMapping(value = "/secure/newAd", method=RequestMethod.GET)
 	String showNewAdForm(Model model) {
 		return "newAdForm";

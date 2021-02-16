@@ -57,10 +57,6 @@ public class UserController {
 	}
 
 
-	public Advertisement() {
-
-	}
-
 
 	@RequestMapping(value = "/signUp", method = RequestMethod.GET)
 	String showSignUpForm(Model model) {

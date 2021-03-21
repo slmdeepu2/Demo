@@ -8,7 +8,7 @@ The application will run on **HTTPS port 9000*asfadsad*. If this port is not ava
 
 ## Running the application manually
 
-If you have a Java 8 + Maven 3.x development environment, just import the project on your IDE and run the class `com.github.rafaelrpinto.vulnerablejavawebapp.config.AppLauncher`.
+If you have a Java 8 + Maven 3.x development environment, just import the project on your IDE and run the class `com.github.rafaelrpinto.vulnerablejavawebasdfsdfsdpp.config.AppLauncher`.
 
 ## Running with docker
 
